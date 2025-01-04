@@ -33,13 +33,13 @@ Only relevant features like transaction type, amount, origin balance, and destin
 # DATASET
 ![image](https://github.com/user-attachments/assets/39852558-d9db-4528-801e-f1874a6a0ddc)
 
-ACCURACY PREDICTION OF MODELS
+# ACCURACY PREDICTION OF MODELS
 
 ![image](https://github.com/user-attachments/assets/d5dd680f-b9a9-47b4-b7d7-25a518522d6b)
 # CLASSIFICATION REPORT
 ![image](https://github.com/user-attachments/assets/36f9bc38-bb08-4bf3-bc73-f2614aa84ebf)
 
-PREDICTION OF MODEL
+# PREDICTION OF MODEL
 ![image](https://github.com/user-attachments/assets/1a166ee2-3ec7-4e3a-bcf6-0f5617e23af9)
 ![image](https://github.com/user-attachments/assets/5ebca294-ff57-4f56-9cf7-1f0a8a8bd7aa)
 
