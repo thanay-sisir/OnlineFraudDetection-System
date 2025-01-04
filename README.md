@@ -5,7 +5,7 @@ Deployment
 ├── model.pkl  # Your model file <br>
 ├── onlinefraud.csv  # Your CSV file <br>
 └── templates/ <br>
-            └── index.html # Your HTML template file
+       &nbsp └── index.html   # Your HTML template file
 
 
 
