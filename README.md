@@ -1,4 +1,4 @@
-# Deployment
+# DEPLOYMENT
 
 └── OnlinFraudDtection &nbsp;   /  #foldername <br>
 ├── app.py &nbsp;  # Your Flask application <br> 
