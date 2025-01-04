@@ -27,7 +27,7 @@ isFlaggedFraud (flagged suspicious transactions).
 
 
 Only relevant features like transaction type, amount, origin balance, and destination balance are used for training. Irrelevant or redundant features are dropped to improve model accuracy
-
+# PROPOSED IMPLEMENTATION
 ![image](https://github.com/user-attachments/assets/8afad179-2fab-4e16-af6f-f242e2e53cfe)
 
 # DATASET
