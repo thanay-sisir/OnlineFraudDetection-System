@@ -10,6 +10,9 @@ Deployment
 
 The online payment fraud detection system developed in this project effectively demonstrates the application of machine learning algorithms, such as Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting, to predict 	fraudulent transactions. While the model showed promising results in detecting fraud,challenges remain in minimizing false positives and false negatives
 
+
+Only relevant features like transaction type, amount, origin balance, and destination balance are used for training. Irrelevant or redundant features are dropped to improve model accuracy
+
 ![image](https://github.com/user-attachments/assets/39852558-d9db-4528-801e-f1874a6a0ddc)
 
 
