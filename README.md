@@ -1,4 +1,4 @@
- **<span style="font-size:20px;">Deployment</span>**
+ **<span style="font-size:50px;">Deployment</span>**
 
 └── OnlinFraudDtection &nbsp;   /  #foldername <br>
 ├── app.py &nbsp;  # Your Flask application <br> 
@@ -11,7 +11,7 @@
 The online payment fraud detection system developed in this project effectively demonstrates the application of machine learning algorithms, such as Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting, to predict fraudulent transactions. Acheiving 98% accuracy with Random Forest Classifier, While the model showed promising results in detecting fraud,challenges remain in minimizing false positives and false negatives
 
 
- **<span style="font-size:20px;"> METHODOLOGY</span>**
+ **<span style="font-size:50px;"> METHODOLOGY</span>**
 
 This study utilized a dataset from Kaggle, an open platform, due to the challenges of accessing real-time datasets for privacy reasons. The dataset comprises 6,362,622 records with 11 attributes, including:
 
