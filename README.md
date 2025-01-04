@@ -11,6 +11,22 @@ Deployment
 The online payment fraud detection system developed in this project effectively demonstrates the application of machine learning algorithms, such as Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting, to predict fraudulent transactions. Acheiving 98% accuracy with Random Forest Classifier, While the model showed promising results in detecting fraud,challenges remain in minimizing false positives and false negatives
 
 
+METHODOLOGY
+
+This study utilized a dataset from Kaggle, an open platform, due to the challenges of accessing real-time datasets for privacy reasons. The dataset comprises 6,362,622 records with 11 attributes, including:
+
+type (type of payment),
+amount,
+nameOrig (customer initiating the transaction),
+oldbalanceOrg (balance before the transaction),
+newbalanceOrig (balance after the transaction),
+nameDest (transaction recipient),
+oldbalanceDest (recipient's balance before the transaction),
+newbalanceDest (recipient's balance after the transaction),
+isFraud (1 if fraudulent, 0 if legitimate), and
+isFlaggedFraud (flagged suspicious transactions).
+
+
 Only relevant features like transaction type, amount, origin balance, and destination balance are used for training. Irrelevant or redundant features are dropped to improve model accuracy
 
 ![image](https://github.com/user-attachments/assets/39852558-d9db-4528-801e-f1874a6a0ddc)
