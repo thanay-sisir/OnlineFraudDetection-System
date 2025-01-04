@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment Fraud Prediction</title>
+</head>
+
+<body>
+    <h1>Online Payment Fraud Prediction</h1>
+    <form action="/predict" method="post">
+        <!-- Hidden step input (always 1) -->
+        <input type="hidden" id="step" name="step" value="1">
+
+        <!-- Dropdown for transaction type -->
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="CASH_IN">Cash In</option>
+            <option value="CASH_OUT">Cash Out</option>
+            <option value="TRANSFER">Transfer</option>
+            <option value="DEBIT">Debit</option>
+            <option value="PAYMENT">Payment</option>
+        </select><br>
+
+        <!-- Input for amount -->
+        <label for="amount">Amount:</label>
+        <input type="text" id="amount" name="amount"><br>
+
+        <!-- Input for origin balance -->
+        <label for="oldbalanceOrg">Origin Balance:</label>
+        <input type="text" id="oldbalanceOrg" name="oldbalanceOrg"><br>
+
+        <!-- Input for destination balance -->
+        <label for="oldbalanceDest">Destination Balance:</label>
+        <input type="text" id="oldbalanceDest" name="oldbalanceDest"><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Predict">
+    </form>
+
+    <!-- Section to display predicted output -->
+    {% if prediction is defined %}
+    <h2>Predicted Value:</h2>
+    <p>{% if prediction == 0 %}
+    <h3>Not a fraud</h3>
+    {% else %}
+    <h3>fraud</h3>
+    </p>
+    {% endif %}
+    {% endif %}
+</body>
+
+</html>
